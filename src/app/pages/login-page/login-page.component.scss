@@ -1,0 +1,48 @@
+
+:host{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 255px;
+  height: 100dvh;
+  align-items: center;
+  padding: 0 180px;
+}
+
+.tt-input{
+  margin-top: 8px;
+ display: block;
+ border: 1px solid var(--light-color);
+ border-radius: 4px;
+ padding: 12px 20px;
+ background: var(--dark-color);
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 21px;
+ color: var(--light-color);
+ width: 100%;
+}
+
+.tt-label{
+  font-weight: 700;
+  font-size: 12px;
+  display: block;
+}
+.btn-shadow{
+
+  width: 100%;
+}
+.h1{
+  margin-bottom: 32px;
+}
+
+.mb16{
+  margin-bottom: 16px;
+}
+
+.mb32{
+  margin-bottom: 32px;
+}
+
+.mb60{
+  margin-bottom: 60px;
+}

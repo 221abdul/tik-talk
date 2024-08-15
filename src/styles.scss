@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+:root{
+  --dark-color: #000;
+  --light-color: #fff;
+  --primary-color: #AE7AFF;
+  --font-family: "JetBrains Mono", sans-serif;
+}
+body{
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  font-family: var(--font-family);
+  background-image: url(/assets/imgs/img-Bg.jpg) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+.h1{
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 800px;
+}
+.skil-tag{
+  border: 1px solid var(--light-color);
+  border-radius: 2px;
+  padding: 4px 8px 4px 8px;
+  font-weight: 700;
+  font-size: 12px;
+
+color: var(--light-color);
+
+text-align: center;
+
+}
+.btn{
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
